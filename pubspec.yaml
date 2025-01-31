@@ -1,19 +1,27 @@
-name: sample_facebook_starter
+name: myapp
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
-
+ 
 environment:
   sdk: '>=3.2.6 <4.0.0'
-
+ 
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_screenutil: ^5.9.3
+ 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-
+ 
 flutter:
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: Verdana
+      fonts:
+        - asset: assets/fonts/Verdana.ttf  
   uses-material-design: true
