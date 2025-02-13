@@ -1,0 +1,31 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+ 
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+ 
+dependencies:
+  cached_network_image: ^3.3.1
+  carousel_slider: ^5.0.0
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  flutter_spinkit: ^5.2.1
+ 
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+ 
+flutter:
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: Verdana
+      fonts:
+        - asset: assets/fonts/Verdana.ttf  
+  uses-material-design: true
